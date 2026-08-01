@@ -1,0 +1,17 @@
+cache/
+chroot/
+.build/
+binary/
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/source
+config/hooks/live
+config/hooks/normal
+config/package-lists/live.list.chroot
+
+.lock
+
+chroot*
+installer*
