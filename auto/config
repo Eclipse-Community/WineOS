@@ -1,14 +1,17 @@
 #!/bin/sh
-lb config \
-    --mode debian \
-    --distribution trixie \
-    --architectures amd64 \
-    --binary-images iso-hybrid \
-    --debian-installer live \
-    --debian-installer-gui false \
-    --bootloader syslinux \
-    --apt-source-archives false \
-    --archive-areas "main contrib non-free non-free-firmware" \
-    --linux-flavours amd64 \
-    --system normal \
-    --memtest none
+set -e
+
+# Only set default options.
+
+LB_MODE="debian"
+LB_DISTRIBUTION="trixie"
+LB_ARCHITECTURES="amd64"
+LB_BINARY_IMAGES="iso-hybrid"
+LB_DEBIAN_INSTALLER="live"
+LB_DEBIAN_INSTALLER_GUI="false"
+LB_BOOTLOADER="syslinux"
+LB_APT_SOURCE_ARCHIVES="false"
+LB_ARCHIVE_AREAS="main contrib non-free non-free-firmware"
+LB_LINUX_FLAVOURS="amd64"
+LB_SYSTEM="normal"
+LB_MEMTEST="none"
