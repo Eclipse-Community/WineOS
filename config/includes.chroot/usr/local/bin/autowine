@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Detect resolution
+RES="$(xrandr | awk '/\*/ {print $1; exit}')"
+
+# Launch Wine fullscreen virtual desktop
+wine explorer /desktop=shell,$RES
