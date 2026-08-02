@@ -11,3 +11,6 @@ config/hooks/normal
 
 chroot*
 installer*
+
+live-*
+binary.modified*
