@@ -2,8 +2,6 @@ cache/
 chroot/
 .build/
 binary/
-config/binary
-config/bootstrap
 config/chroot
 config/source
 config/hooks/live

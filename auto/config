@@ -4,7 +4,7 @@ set -e
 
 lb config noauto \
     --mode debian \
-    --distribution bookworm \
+    --distribution trixie \
     --architectures amd64 \
     --binary-images iso-hybrid \
     --debian-installer live \
