@@ -50,7 +50,7 @@ LB_ZSYNC="false"
 LB_BUILD_WITH_CHROOT="true"
 
 # Set debian-installer
-LB_DEBIAN_INSTALLER="live"
+LB_DEBIAN_INSTALLER="netinst"
 
 # Set debian-installer suite
 LB_DEBIAN_INSTALLER_DISTRIBUTION="trixie"
@@ -59,7 +59,7 @@ LB_DEBIAN_INSTALLER_DISTRIBUTION="trixie"
 LB_DEBIAN_INSTALLER_PRESEEDFILE=""
 
 # Toggle use of GUI debian-installer
-LB_DEBIAN_INSTALLER_GUI="false"
+LB_DEBIAN_INSTALLER_GUI="true"
 
 # Set hdd label
 LB_HDD_LABEL="DEBIAN_LIVE"

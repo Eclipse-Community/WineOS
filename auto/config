@@ -7,8 +7,8 @@ lb config noauto \
     --distribution trixie \
     --architectures amd64 \
     --binary-images iso-hybrid \
-    --debian-installer live \
-    --debian-installer-gui false \
+    --debian-installer netinst \
+    --debian-installer-gui true \
     --bootloader syslinux \
     --apt-source-archives false \
     --archive-areas "main contrib non-free non-free-firmware" \
