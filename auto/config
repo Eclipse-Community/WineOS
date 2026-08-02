@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+lb config noauto \
+    --mode debian \
+    --distribution bookworm \
+    --architectures amd64 \
+    --binary-images iso-hybrid \
+    --debian-installer live \
+    --debian-installer-gui false \
+    --bootloader syslinux \
+    --apt-source-archives false \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --linux-flavours amd64 \
+    --system normal \
+    --memtest none \
+    --apt-recommends false
