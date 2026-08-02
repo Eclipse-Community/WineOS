@@ -6,4 +6,4 @@ WineOS is a Debian based distro that just boots into WINE after log-in. Pretty s
 
 ```
 sudo lb clean && sudo lb config && sudo lb build
-``
+```
